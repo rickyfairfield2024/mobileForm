@@ -24,7 +24,6 @@ body {
     gap: 30px;
     align-items: center;
 }
-
 .container form{
     max-width: 400px;
     display: grid;
@@ -37,7 +36,6 @@ body {
     align-items: center;
 }
 .fa-user {
-    text-align: center;
     grid-row: 1/2;
     grid-column: 1/1;
 }
@@ -46,7 +44,6 @@ body {
     grid-column: 2/8;
 }
 .fa-phone {
-    text-align: center;
     grid-row: 2/3;
     grid-column: 1/1;
 }
@@ -59,7 +56,6 @@ body {
     grid-column: 6/8;
 }
 .fa-location-dot {
-    text-align: center;
     grid-row: 3/4;
     grid-column: 1/1;
 }
@@ -80,7 +76,6 @@ body {
     grid-column: 5/8;
 }
 .fa-envelope {
-    text-align: center;
     grid-row: 6/7;
     grid-column: 1/1;
 }
@@ -89,7 +84,6 @@ body {
     grid-column: 2/8;
 }
 .fa-cake-candles {
-    text-align: center;
     grid-row: 7/8;
     grid-column: 1/1;
 }
@@ -102,7 +96,15 @@ form input, form select {
     padding: 15px;
     font-size: 1rem;
 }
-
+.fa-user,
+.fa-phone,
+.fa-location-dot,
+.fa-envelope,
+.fa-cake-candles {
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgb(100, 100, 100);
+}
 #name,
 #address,
 #state,
